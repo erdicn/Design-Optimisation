@@ -145,6 +145,7 @@ sorting=none,
 \newcommand{\JeanCamilleChassaing}{Jean-Camille Chassaing}
 \newcommand{\JeanCamilleCHASSAING}{Jean-Camille CHASSAING}
 \newcommand{\RemyCornaggia}{Rémi Cornaggia}
+\usepackage{bm}%\newcommand{\bm}[1]{\mathbf{#1}}
 
 \fancypagestyle{firstpage}{
 \setlength{\headheight}{60pt}
@@ -276,7 +277,10 @@ sorting=none,
         \toprule
         Symbole & Signification & Valeur \\
         \midrule
-
+        $\bm{x}$ & Design variables TODO& \\
+        $f(\bm{x})$ & Objective function & \\
+        $g(\bm{x})$ & Inequality constraints TODO& \\
+        $h(\bm{x})$ & Equality constraints TODO& \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -287,6 +291,23 @@ sorting=none,
 
 \newpage    
 \pagenumbering{arabic}
+
+
+\section{Introduction}
+Lobjectid de loptimisation avec les enjeux et les avantages et pourquoi ca peut etre utile
+\subsection{Optimisation}
+Optimisation et mes difficultes de loptimisation car on peux faire une seul proprieter l'optimal et si on a plusieurs parametres on a besoin de faire des compromis entre eux. Mais cela ne empeche pas de trouver le optimal de plusieurs couple. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.8\textwidth]{example-image}
+    \caption{Figure des valeur optimale de trainee et du lift}
+\end{figure}
+
+L'objective est de minimiser $f(x)$ (function objective) subject a $g(x)<0$ (constraints) et  $h(x)=0$ 
+Mais comment on definit ces fonctions est que cest seulement que on essaye de minimiser la masse sans contrainte alors on a plus de objet car plus de pbjet veut dire que on aurait pas de masse et donc cest l'optimale. Pour cela le choix de fonction objective et des contraintes est tres importante. 
+
+Procedure d'optimisation: on itere et ameliore le design jusque a la simulation converge. 
+
 
 
 
@@ -303,11 +324,22 @@ sorting=none,
 % \renewcommand*{\thepage}{A\arabic{page}}
 
 % \twocolumn
-% \addcontentsline{toc}{section}{Annexes}
-% \section*{Annexes}
-% \renewcommand{\thefigure}{A\arabic{figure}}
-% \setcounter{figure}{0}
+\newpage
+% https://tex.stackexchange.com/questions/174621/numbering-appendices-by-letter-instead-of-number
+\addcontentsline{toc}{section}{Annexes}
+\appendix
+\renewcommand{\thefigure}{A\arabic{figure}}
+\setcounter{figure}{0}
+% \section{Annexes}
 
+\section{NACA Naming}
+\section{Methods}
+% TODO expliquer les methodes dans le diapo 28 de la presentation MIT 16.810_L0_Optimisation
+\subsection{Heuristic methods}
+\subsection{Methodes base sur des gradients} \label{grad_methods}
+\subsubsection{Adjoint}
+% En faite l'adjoint est aussi une methode de gradient mais une methode moins mainstream et diifenente de ma lemhode du gradient parle dans \ref{grad_methods}. Pour cela une differente section a ete dedie.
 % \input{annexe.tex}
+TODO comment les methodes de gradient trouve le minimum globale et ils sont pas bloque dans des minimums locale ?
 
 \end{document}

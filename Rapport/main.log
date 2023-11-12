@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.21)  12 NOV 2023 02:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.21)  12 NOV 2023 03:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1090,6 +1090,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \xs_countb=\count494
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup8
+\symboldletters=\mathgroup9
+Package bm Info: No bold for \FMS/futm/m/n, using \pmb.
+Package bm Info: No bold for \FMX/futm/m/n, using \pmb.
+\symboldotherletters=\mathgroup10
+Package bm Info: No bold for \U/futm/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (c:/texlive/2023/texmf-dist/tex/latex/picture/picture.sty
 Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
 Package picture Info: Calculation method: etex.
@@ -1108,44 +1119,44 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 176.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 176.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 177.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 177.
  (c:/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 176.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 176.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 177.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 177.
  (c:/texlive/2023/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 176.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 176.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 177.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 177.
  (c:/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 176.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 176.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 177.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 177.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count498
@@ -1197,7 +1208,7 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 176.
 (c:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-french.trsl
 File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 176.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 177.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: french babel package is loaded.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1215,76 +1226,81 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 176.
-Package biblatex Info: Reference segment=0 on input line 176.
-Package hyperref Info: Link coloring OFF on input line 176.
+Package biblatex Info: Reference section=0 on input line 177.
+Package biblatex Info: Reference segment=0 on input line 177.
+Package hyperref Info: Link coloring OFF on input line 177.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Info: Redefining \degres on input line 176.
+LaTeX Info: Redefining \degres on input line 177.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 176.
+(french.ldf)             reported on input line 177.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 176.
-LaTeX Info: Redefining \up on input line 176.
+(french.ldf)             reported on input line 177.
+LaTeX Info: Redefining \up on input line 177.
 \c@lstlisting=\count504
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 208.
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 209.
  (c:/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 208.
+(Font)              scaled to size 13.24796pt on input line 209.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 208.
+(Font)              scaled to size 9.19998pt on input line 209.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 208.
+(Font)              scaled to size 7.35999pt on input line 209.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 208.
+(Font)              scaled to size 13.24796pt on input line 209.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 208.
+(Font)              scaled to size 9.19998pt on input line 209.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 208.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 208.
+(Font)              scaled to size 7.35999pt on input line 209.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 209.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 208.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 209.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png, id=7, 390.9807pt x 157.0668pt>
+<Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png, id=42, 390.9807pt x 157.0668pt>
 File: Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png Graphic file (type png)
 <use Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png>
-Package pdftex.def Info: Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png  used on input line 212.
+Package pdftex.def Info: Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png  used on input line 213.
 (pdftex.def)             Requested size: 141.64781pt x 56.9055pt.
-<Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg, id=9, 903.375pt x 903.375pt>
+<Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg, id=44, 903.375pt x 903.375pt>
 File: Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg Graphic file (type jpg)
 <use Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg>
-Package pdftex.def Info: Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg  used on input line 217.
+Package pdftex.def Info: Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg  used on input line 218.
 (pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 241.
+(Font)              scaled to size 15.89755pt on input line 242.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 241.
+(Font)              scaled to size 11.03998pt on input line 242.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 241.
+(Font)              scaled to size 8.27998pt on input line 242.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 241.
+(Font)              scaled to size 15.89755pt on input line 242.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 241.
+(Font)              scaled to size 11.03998pt on input line 242.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 241.
+(Font)              scaled to size 8.27998pt on input line 242.
  [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
  <./Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png> <./Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.263 \newpage
-               [1] (./main.toc)
+l.264 \newpage
+               [1] (./main.toc
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 3.
+)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1296,16 +1312,17 @@ l.263 \newpage
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [3]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 275.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 275.
- [4]
+ [3] [4]
+<example-image.pdf, id=87, 321.2pt x 240.9pt>
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 302.
+(pdftex.def)             Requested size: 364.19667pt x 273.15483pt.
+ [1 <c:/texlive/2023/texmf-dist/tex/latex/mwe/example-image.pdf>]
 
-LaTeX Warning: Empty bibliography on input line 297.
+LaTeX Warning: Empty bibliography on input line 318.
 
-(./main.aux)
+[2] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -1315,7 +1332,7 @@ L3 programming layer <2023-10-10>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: AD93B63B54A795F1EF724CA2F354C139;1062.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1326,18 +1343,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39588 strings out of 474504
- 783947 string characters out of 5756725
+ 39743 strings out of 474504
+ 786066 string characters out of 5756725
  1927043 words of memory out of 5000000
- 60933 multiletter control sequences out of 15000+600000
- 626989 words of font info for 107 fonts, out of 8000000 for 9000
+ 61060 multiletter control sequences out of 15000+600000
+ 671120 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,11n,93p,1063b,1736s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on main.pdf (5 pages, 197806 bytes).
+ 94i,11n,93p,1063b,1805s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on main.pdf (7 pages, 244624 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

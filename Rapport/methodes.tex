@@ -1,0 +1,36 @@
+\chapter{Methods d'optimisation}
+
+Algorithme d'optimisation sans contrainte 
+
+TODO pas sur si on en parle des methodes avec contraintes pour linstant ou pas.
+
+Soit $F:\mathbb{R}^d \rightarrow \mathbb{R}$. On suppose qu'il existe $x^* \in \mathbb{R}^d$ tel que $F(x^*) = \inf_{x \in \mathbb{R}^d} F(x)$
+
+On cherche a calculer $x^*$
+
+TODO expliquer les methodes dans le diapo 28 de la presentation MIT $16.810_L0_Optimisation$
+
+TODO pas sur de ici si il faut detailler cela ???
+
+Il existe plusieurs classes de methodes:
+\begin{itemize}
+    \item  Méthodes de descente: consiste à construire une suite minimisante, c'est à dire $(x_k)_{k\in N}$ telle que 
+    $$ F(x_{k+1}) \leq F(x_k) $$
+    $$x_k \rightarrow x^* $$
+    
+    \item Méthodes basées sur l'équation d'Euler qui consiste à chercher une solution de l'équation $\nabla F(x) = 0$. Ces méthodes nécessitent donc que $F$ soit dérivable
+\end{itemize} 
+\section{Heuristic methods}
+\section{Methodes base sur des gradients} \label{grad_methods}
+Les methodes bases sur les gradients consiste a utiliser le gradient pour se diriger vers ou la fonction decroit. 
+
+Petit rappell: 
+
+La heissienne de la fonction $F(\bm{x})$ est note $H_F(\bm x)$ avec $H_F(\bm x)\in \mathcal{M}_d(\mathbb{R})$
+
+
+
+\subsection{Methode du gradient a pas constant}
+La methode du gradient a pas constant coniste a prendre un point et se deplacer dans la direction contraire du gradient avec un pas consant choisi. La raison la quelle on prends la direction inverse du gradient est que le gradient donne la direction vers ou la fonction croit.
+\subsection{}
+\subsection{Adjoint}

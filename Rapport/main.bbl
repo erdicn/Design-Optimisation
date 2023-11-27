@@ -16,5 +16,38 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{intro_to_hilbert_spaces}{book}{}
+      \name{author}{1}{}{%
+        {{hash=96bd134b7d8dced04c19286cd1ccb19c}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{96bd134b7d8dced04c19286cd1ccb19c}
+      \strng{fullhash}{96bd134b7d8dced04c19286cd1ccb19c}
+      \strng{bibnamehash}{96bd134b7d8dced04c19286cd1ccb19c}
+      \strng{authorbibnamehash}{96bd134b7d8dced04c19286cd1ccb19c}
+      \strng{authornamehash}{96bd134b7d8dced04c19286cd1ccb19c}
+      \strng{authorfullhash}{96bd134b7d8dced04c19286cd1ccb19c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to Hilbert Space}
+      \field{year}{1988}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1017/CBO9781139172011
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

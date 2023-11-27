@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper]{article}%,twocolumn %pour deux colonnes mais il faut changer dautre choses aussipour que ca rend bien et avec deux colonnes on reduit notre rappport de 33 pages a 20 pages 
+\documentclass[12pt, a4paper]{book}%,twocolumn %pour deux colonnes mais il faut changer dautre choses aussipour que ca rend bien et avec deux colonnes on reduit notre rappport de 33 pages a 20 pages 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
@@ -21,7 +21,18 @@
 \usepackage{alphalph}
 \renewcommand*{\thesubfigure}{%
 \alphalph{\value{subfigure}}%
-}%
+}
+
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
 
 %\sisetup{detect-all,input-product=*}%
 % \usepackage[labelformat=simple]{subcaption}
@@ -79,7 +90,6 @@ sorting=none,
 
 %\DeclareGraphicsRule{.wmf}{bmp}{}{}% declare WMF filename extension
 \graphicspath{{Figures/}}
-
 \usepackage{chngcntr}
 \counterwithin{figure}{section} %changer a subsection 
 
@@ -203,11 +213,12 @@ sorting=none,
     %\textit{Intermediate Report}}
 }
 
-\author{Erdi ÇAN\\Encadré par \AncaBELME \\ Enseignant référent : \JeanCamilleCHASSAING}
+\author{Erdi ÇAN\\Encadré par \AncaBELME} %\\ Enseignant référent : \JeanCamilleCHASSAING}
 \date{10 septembre 2023}
-\maketitle
 
-\tikz[remember picture, overlay] %
+\maketitle
+% TODO put figures on the title page 
+\tikz[remember picture, overlay] 
 \node[shift={(1cm,-1cm)}] at (current page.north west) %
 [anchor=north west] %
 {\includegraphics[height = 2cm]{Figures/SORBONNE_FAC_SCIENCES_DEF_CMJN.png}};
@@ -216,7 +227,6 @@ sorting=none,
 \node[shift={(6.5cm,-1cm)}] at (current page.north west) %
 [anchor=north west] %
 {\includegraphics[height = 2cm]{Figures/logo_minimal_institut_jean_le_rond_dalembert.jpg}};
-
 
 \begin{figure}[H]
     % \centering
@@ -264,7 +274,7 @@ sorting=none,
 \newpage
 
 \tableofcontents
-\newpage
+% \newpage
 \listoffigures
 \listoftables
 \newpage
@@ -289,14 +299,16 @@ sorting=none,
 
 \newpage
 
+\input{preface.tex}
+
 \newpage    
 \pagenumbering{arabic}
 
-
+\chapter{Introduction}
 \section{Introduction}
 Lobjectid de loptimisation avec les enjeux et les avantages et pourquoi ca peut etre utile
 \subsection{Optimisation}
-Optimisation et mes difficultes de loptimisation car on peux faire une seul proprieter l'optimal et si on a plusieurs parametres on a besoin de faire des compromis entre eux. Mais cela ne empeche pas de trouver le optimal de plusieurs couple. 
+Optimisation et les difficultes de l'optimisation car on peux faire une seul propriete l'optimal et si on a plusieurs parametres on a besoin de faire des compromis entre eux. Mais cela ne empeche pas de trouver le optimal de plusieurs couple. 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.8\textwidth]{example-image}
@@ -308,6 +320,7 @@ Mais comment on definit ces fonctions est que cest seulement que on essaye de mi
 
 Procedure d'optimisation: on itere et ameliore le design jusque a la simulation converge. 
 
+\input{methodes.tex}
 
 
 
@@ -330,16 +343,18 @@ Procedure d'optimisation: on itere et ameliore le design jusque a la simulation 
 \appendix
 \renewcommand{\thefigure}{A\arabic{figure}}
 \setcounter{figure}{0}
-% \section{Annexes}
+%\section{Annexes}
 
+\chapter{TODO name of Annexes}
 \section{NACA Naming}
-\section{Methods}
-% TODO expliquer les methodes dans le diapo 28 de la presentation MIT 16.810_L0_Optimisation
-\subsection{Heuristic methods}
-\subsection{Methodes base sur des gradients} \label{grad_methods}
-\subsubsection{Adjoint}
+\input{naca_naming.tex}
+\chapter{TODO name of Annexes}
+\section{Bases mathematiques}
+\input{preliminary.tex}
+
+
 % En faite l'adjoint est aussi une methode de gradient mais une methode moins mainstream et diifenente de ma lemhode du gradient parle dans \ref{grad_methods}. Pour cela une differente section a ete dedie.
 % \input{annexe.tex}
-TODO comment les methodes de gradient trouve le minimum globale et ils sont pas bloque dans des minimums locale ?
+TODO Est que il ya  des methodes pour trouver le minimum globale sans parcourir toute la fonction dans un temps fini ou notre meilleur choix est de faire une recherche aleatoire de decente et a la fin on a la posibilite de tomber dans un minimum globale?
 
 \end{document}
